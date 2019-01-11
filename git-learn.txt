@@ -1,0 +1,69 @@
+
+
+// Shortcut
+
+cd = change directory
+mkdir = make directory
+rm = rmove
+
+
+Road Map
+============
+
+git version > git init > git add > git status > git commit > git log
+
+
+
+$ touch first.txt  // Create txt file
+$ code . // open code in vscode
+
+
+Notes
+=========
+1. Unstage/untracked file color is red.
+2. Stage/Tracked file color is Green.
+3. Last commit always show in top
+
+
+
+
+
+
+
+
+
+
+// Git Command
+
+$ git --version // Git Version
+$ git init  // git initialize 
+$ git add . // all file add
+$ git commit
+$ git commit -m "commit message here" // Commit message 
+$ git log --oneline // show message in one line
+$ git show 6eaa22d // for show. this is id number = 6eaa22d
+$ git diff // check file change difference
+$ git diff --staged // again check difference after add
+$ git diff 6eaa22d 2eac5bd // check difference two id
+$ git rm second.txt // for file delete use rm and file name
+$ git reset HEAD second.txt // Unstaged changes after reset
+$ git checkout da2224b first.txt // Move to version used commit id file name
+$ git push -u origin master // for push
+$ git rm -r * // delete everything
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
